@@ -149,7 +149,7 @@
 }
 
 .banner1 h5 {
-    color: black;
+    color: white;
     margin-top: 5.5rem;
     margin-left: 4rem;
     font-weight: 600;
@@ -181,7 +181,7 @@
 }
 
 .banner3 h3 {
-    color: white;
+    color: orangered;
     font-weight: 500;
     margin-top: 4rem;
     margin-left: 0.2rem;
@@ -189,7 +189,7 @@
 }
 
 .banner3 h5 {
-    color: black;
+    color: orange;
     font-weight: 500;
     margin-left: 0.2rem;
 }
