@@ -135,7 +135,7 @@
 }
 
 .banner1 {
-    background-image: url("Image/banner1.jpg");
+    background-image: url("./assets/banner1.jpg");
     background-size: cover;
     width: 17rem;
     height: 9rem;
@@ -156,7 +156,7 @@
 }
 
 .banner2 {
-    background-image: url("Image/banner2.webp");
+    background-image: url("./assets/banner2.webp");
     background-size: contain;
     width: 14.8rem;
     height: 9rem;
@@ -173,7 +173,7 @@
 }
 
 .banner3 {
-    background-image: url("Image/banner3.webp");
+    background-image: url("./assets/banner1.jpg");
     background-size: cover;
     width: 17rem;
     height: 9rem;
