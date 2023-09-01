@@ -143,13 +143,13 @@
 
 .banner1 h3 {
     margin-top: 0.3rem;
-    color: white;
+    color: black;
     font-weight: 600;
     margin-left: 4.7rem;
 }
 
 .banner1 h5 {
-    color: white;
+    color: black;
     margin-top: 5.5rem;
     margin-left: 4rem;
     font-weight: 600;
@@ -189,7 +189,7 @@
 }
 
 .banner3 h5 {
-    color: white;
+    color: black;
     font-weight: 500;
     margin-left: 0.2rem;
 }
