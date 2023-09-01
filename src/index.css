@@ -1,0 +1,1088 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*   Navbar  */
+.navbar {
+    width: 100%;
+    background-color: rgb(224, 224, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 4px 4px 40px rgb(157 157 255);
+}
+
+/*   Navbar image   */
+.navbar img {
+    margin-top: 0.6rem;
+    margin-left: 4.5rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    cursor: pointer;
+}
+
+/*    Navbar font   */
+#list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 2rem;
+}
+
+/*  tags  */
+#list a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-decoration: none;
+    margin: 2rem;
+}
+
+#list-img {
+    font-size: 2rem;
+    color: #1a1a1a;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#list-icon {
+    display: none;
+    font-size: 1.2rem;
+}
+
+#list a:hover {
+    color: rgba(159, 56, 255, 0.833);
+}
+
+/*     fa-fa image */
+.fa-fa {
+    cursor: pointer;
+    margin-right: 4.5rem;
+}
+
+/*     main */
+.main {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(238, 238, 255);
+}
+
+.main h4 {
+    color: rgb(59, 0, 0);
+    font-size: 1.8rem;
+}
+
+.main h2 {
+    margin-top: 2rem;
+    color: rgb(97 2 2);
+    font-size: 5rem;
+
+}
+
+.main h1 {
+    margin-top: 2rem;
+}
+
+.main p {
+    margin-top: 1rem;
+    color: gray;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main button {
+    margin-top: 2rem;
+    padding: 6px;
+    background-color: rgb(68, 176, 253);
+    cursor: pointer;
+    font-weight: 550;
+    border-radius: 5px;
+}
+
+.main button:hover {
+    background-color: rgb(0, 113, 194);
+    font-weight: 600;
+    color: white;
+}
+
+.tittle {
+    margin: 5rem;
+}
+
+.main-img {
+    padding: 2rem;
+}
+
+.main-img img {
+    height: 38rem;
+    width: 35rem;
+    opacity: 0.9;
+    box-shadow: -2px -2px 2px 1px rgb(33, 0, 0);
+}
+
+/*  Banner */
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.banner1 {
+    background-image: url("Image/banner1.jpg");
+    background-size: cover;
+    width: 17rem;
+    height: 9rem;
+}
+
+.banner1 h3 {
+    margin-top: 0.3rem;
+    color: white;
+    font-weight: 600;
+    margin-left: 4.7rem;
+}
+
+.banner1 h5 {
+    color: white;
+    margin-top: 5.5rem;
+    margin-left: 4rem;
+    font-weight: 600;
+}
+
+.banner2 {
+    background-image: url("Image/banner2.webp");
+    background-size: contain;
+    width: 14.8rem;
+    height: 9rem;
+}
+
+.banner2 h3 {
+    margin-left: 2.8rem;
+    margin-top: 0.2rem;
+}
+
+.banner2 h5 {
+    margin-left: 2.8rem;
+    margin-top: 0.2rem;
+}
+
+.banner3 {
+    background-image: url("Image/banner3.webp");
+    background-size: cover;
+    width: 17rem;
+    height: 9rem;
+    background-repeat: no-repeat;
+}
+
+.banner3 h3 {
+    color: white;
+    font-weight: 500;
+    margin-top: 4rem;
+    margin-left: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner3 h5 {
+    color: white;
+    font-weight: 500;
+    margin-left: 0.2rem;
+}
+
+/* headings  */
+.heading1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+    font-size: 4.5rem;
+    color: #1a1a1ae7;
+    margin-top: 3rem;
+}
+
+.heading2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40%;
+    color: gray;
+    margin-top: 0.6rem;
+}
+
+/*    card   */
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-wrap: break-word;
+    align-items: center;
+}
+
+.card1 {
+    background-color: rgba(229, 229, 229, 0.797);
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.card1 img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.card1 h4 {
+    color: rgb(95, 0, 0);
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+.card1 h4:hover {
+    color: rgb(1, 122, 96);
+}
+
+.card1 p {
+    color: rgb(71, 71, 71);
+    margin-left: 0.5rem;
+}
+
+.card1 h3 {
+    color: rgb(91, 91, 91);
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+.star {
+    margin-top: 0.2rem;
+    margin-left: 0.1rem;
+    cursor: pointer;
+}
+
+.card1 button {
+    padding: 5px;
+    margin-top: 0.4rem;
+    margin-bottom: 0.3rem;
+    background-color: rgb(117, 223, 255);
+    cursor: pointer;
+    font-weight: 550;
+    border-radius: 5px;
+    margin-left: 5rem;
+}
+
+.card1:hover {
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.card1 button:hover {
+    background-color: rgb(0, 113, 194);
+    font-weight: 600;
+    color: white;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+/*  pannel  */
+.pannel {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 65rem;
+    margin: 4rem 0rem 4rem 15rem;
+    border: 2px solid gray;
+}
+
+.pannel h3 {
+    padding: 1.5rem;
+}
+
+.pannel button {
+    margin: 3rem;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pannel-img1 img {
+    height: 15rem;
+}
+
+.pannel-img2 img {
+    height: 15rem;
+}
+
+/*  container */
+.container {
+    display: flex;
+    margin: 1.2rem 0rem;
+    justify-content: space-between;
+}
+
+.container img{
+    height: 20rem;
+    width: 20rem;
+    margin-right: 7rem;
+}
+
+.left h3 {
+    margin-top: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 27rem;
+    font-weight: 530;
+}
+
+.left h1 {
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-left: 27rem;
+    font-size: 3rem;
+}
+
+.left h5 {
+    margin-top: 4rem;
+    font-weight: 580;
+    color: gray;
+    margin-left: 27rem;
+}
+
+.left button {
+    margin-top: 1rem;
+    margin-left: 27rem;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+   /* features-card */
+.features{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.features-card{
+    box-shadow: -2px 2px 2px rgb(135, 135, 135);
+    border: 2px solid rgb(201, 201, 201);
+    margin: 1rem;
+    border-radius: 5px;
+}
+.features-card1{
+    background-color: antiquewhite;
+    box-shadow: -2px 2px 2px rgb(135, 135, 135);
+    border: 2px solid rgb(201, 201, 201);
+    margin: 1rem;
+    border-radius: 5px;
+}
+.features-card1 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 570;
+    background-color: rgba(157, 10, 157, 0.788);
+    padding: 0.5rem;
+    margin: 0.5rem 2rem;
+    border-radius: 5px;
+    color: white;
+}
+.features-card2{
+    box-shadow: -2px 2px 2px rgb(135, 135, 135);
+    border: 2px solid rgb(201, 201, 201);
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: rgb(146, 232, 232);
+}
+.features-card2 img{
+    margin: 0.5rem;
+}
+.features-card2 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 570;
+    background-color: rgba(157, 10, 157, 0.788);
+    padding: 0.5rem;
+    margin: 1.2rem 2rem 0.5rem 2rem;
+    border-radius: 5px;
+    color: white;
+}
+.features-card3{
+    box-shadow: -2px 2px 2px rgb(135, 135, 135);
+    border: 2px solid rgb(201, 201, 201);
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: rgba(0, 66, 0, 0.796);
+}
+.features-card3 img{
+    margin: 0.6rem;
+}
+.features-card3 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 570;
+    background-color: rgba(157, 10, 157, 0.788);
+    padding: 0.5rem;
+    margin: 0.7rem 2rem 0.5rem 2rem;
+    border-radius: 5px;
+    color: white;
+}
+.features-card5{
+    box-shadow: -2px 2px 2px rgb(135, 135, 135);
+    border: 2px solid rgb(201, 201, 201);
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: rgb(200, 200, 200);
+}
+.features-card5 img{
+    margin: 0.7rem;
+}
+.features-card5 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 570;
+    background-color: rgba(157, 10, 157, 0.788);
+    padding: 0.5rem;
+    margin: 0.5rem 2rem 0.2rem 2rem;
+    border-radius: 5px;
+    color: white;
+} 
+.about{
+    display: flex;
+    height: 7rem;
+    background-color: rgb(25, 25, 100);
+    margin-top: 5rem;
+}
+.about h2{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 520; 
+    color: white; 
+    margin-top: 2rem; 
+    margin-left: 17rem;
+}
+.about p{
+    color: white; 
+    margin-left: 17rem;
+    margin-top: 0.3rem;
+}
+.about span{
+    color: #f3b519; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bolder;
+}
+.about-right input{
+    margin-left: 20rem; 
+    margin-top: 2.5rem; 
+    padding: 0.6rem; 
+    width: 18rem; 
+    border-top-left-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+    border: 1px solid transparent;
+}
+.about-right button{
+    padding: 0.6rem; 
+    width: 5rem;
+    background-color: #1f9761;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid gray;
+    color: white;
+    cursor: pointer; 
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.about-right input:focus{
+    outline: none;
+}
+.about-right button:hover{
+    background-color: #088760;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem;
+    justify-content: space-between;
+    background-color: rgba(197, 238, 197, 0.58);
+}
+footer .foot{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem;
+}
+.foot a{
+    text-decoration: none;
+    margin: 0.8rem 0rem 0rem 0rem;
+    color: #1a1a1a;
+}
+.foot a:hover{
+    color: #4267B2;;
+    text-decoration: underline;
+}
+.foot p{
+    margin: 0.5rem;
+}
+footer .icon{
+    margin: 0.4rem 0rem 0rem 1rem;
+}
+.foot-install{
+    margin: 2rem;
+}
+.all-rights{
+    color: gray; 
+    font-family: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 200px) and (max-width: 500px) {
+    #list a {
+        display: none;
+    }
+
+    #list-icon {
+        display: block;
+        margin: 0rem 0rem 0rem 1.3rem;
+    }
+
+    .navbar img {
+        margin-left: 1.5rem;
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    .main-img {
+        height: 20rem;
+        width: 20rem;
+    }
+
+    #list-img {
+        font-size: 1.2rem;
+    }
+
+    .tittle h4 {
+        font-size: 0.8rem;
+    }
+
+    .tittle h2 {
+        font-size: 2rem;
+    }
+
+    .tittle h1 {
+        font-size: 1rem;
+    }
+
+    .main-img img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner {
+        display: grid;
+        grid-column: 2fr, 2fr;
+        margin: 1.5rem;
+    }
+
+    .banner1 {
+        margin: 0rem 1.5rem;
+    }
+
+    .banner2 {
+        margin: 1.5rem 2.5rem;
+    }
+
+    .banner3 {
+        margin: 0rem 1.5rem;
+    }
+
+    .heading1 {
+        font-size: 1.7rem;
+        margin-left: 22%;
+    }
+
+    .heading2 {
+        margin-left: 16%;
+    }
+
+    .pannel {
+        margin-left: 1rem;
+        width: 93%;
+    }
+
+    .pannel h3 {
+        font-size: 0.7rem;
+        padding: 0.5rem;
+    }
+
+    .pannel h1 {
+        font-size: 0.7rem;
+    }
+
+    .pannel-img1 img {
+        height: 7rem;
+        margin-top: 0.5rem;
+    }
+
+    .pannel-img2 img {
+        height: 7rem;
+        margin-top: 0.7rem;
+    }
+
+    .pannel button {
+        margin: 2rem 0.4rem 0.4rem 0.4rem;
+        padding: 0.1rem 0.1rem;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    .left{
+        overflow-x: hidden;
+        width: 100%;
+        margin-left: 0.1rem;
+    }
+    .left img{
+        height: 27rem;
+        width: 18rem;
+    }
+    .left h3{
+        font-size: 0.8rem;
+    }
+    .left h1{
+        font-size: 1.3rem;
+    }
+    .left h5{
+        font-size: 0.8rem;
+        color: black;
+    }
+ 
+    .features{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .features-card1{
+        width: 15rem;
+    }
+    .about{
+        flex-direction: column;
+        height: 9rem;
+    }
+    .about h2{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    .about p{
+        margin-left: 1rem;
+    }
+    .about-right input{
+        margin-left: 1rem;
+        margin-top: 1.2rem;
+        padding: 0.6rem;
+        width: 14rem;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 1px solid transparent;
+    }
+    .all-rights{
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .main-img {
+        height: 20rem;
+        width: 20rem;
+    }
+
+    #list a {
+        display: none;
+    }
+
+    #list-icon {
+        display: block;
+        margin: 0rem 0rem 0rem 1.3rem;
+    }
+
+    .navbar img {
+        margin-left: 1.3rem;
+    }
+
+    #list-img {
+        font-size: 1.2rem;
+    }
+
+    .tittle h4 {
+        font-size: 1.5rem;
+    }
+
+    .tittle h2 {
+        font-size: 3rem;
+    }
+
+    .tittle h1 {
+        font-size: 2rem;
+    }
+
+    .main-img img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .banner {
+        display: grid;
+        grid-column: 2fr, 2fr;
+        margin: 1.5rem;
+    }
+
+    .banner1 {
+        margin: 0rem 1.5rem;
+    }
+
+    .banner2 {
+        margin: 1.5rem 2.5rem;
+    }
+
+    .banner3 {
+        margin: 0rem 1.5rem;
+    }
+
+    .heading1 {
+        font-size: 2.7rem;
+        margin-left: 20%;
+    }
+
+    .heading2 {
+        margin-left: 25%;
+    }
+
+    .pannel {
+        margin-left: 1rem;
+        width: 93%;
+    }
+
+    .pannel h3 {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .pannel h1 {
+        font-size: 1rem;
+    }
+
+    .pannel-img1 img {
+        height: 8rem;
+        margin-top: 0.7rem;
+    }
+
+    .pannel-img2 img {
+        height: 8rem;
+        margin-top: 1rem;
+    }
+
+    .pannel button {
+        margin-top: 2rem;
+        padding: 0.2rem 1rem;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    .left{
+        overflow-x: hidden;
+        width: 100%;
+        margin-left: 0.1rem;
+    }
+   
+    .about{
+        flex-direction: column;
+        height: 9rem;
+    }
+    .about h2{
+        margin-top: 1rem;
+        margin-left: 6rem;
+    }
+    .about p{
+        margin-left: 6rem;
+    }
+    .about-right input{
+        margin-left: 6rem;
+        margin-top: 1.5rem;
+        padding: 0.6rem;
+        width: 14rem;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 1px solid transparent;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+    #list a {
+        margin: 1rem;
+    }
+
+    #list-img {
+        font-size: 1.7rem;
+    }
+
+    .navbar img {
+        margin-left: 1.7rem;
+    }
+
+    .banner {
+        display: grid;
+        grid-column: 2fr, 2fr;
+        margin: 1.5rem;
+    }
+
+    .banner1 {
+        margin: 0rem 1.5rem;
+    }
+
+    .banner2 {
+        margin: 1.5rem 2.5rem;
+    }
+
+    .banner3 {
+        margin: 0rem 1.5rem;
+    }
+
+    .heading1 {
+        font-size: 2.7rem;
+        margin-left: 25%;
+    }
+
+    .heading2 {
+        margin-left: 30%;
+    }
+
+    .card1 {
+        margin-left: 0.5rem;
+    }
+
+    .pannel {
+        margin-left: 1rem;
+        width: 90%;
+    }
+
+    .pannel h1 {
+        font-size: 1rem;
+    }
+
+    .pannel-img1 img {
+        height: 9rem;
+        margin-top: 0.5rem;
+    }
+
+    .pannel-img2 img {
+        height: 9rem;
+        margin-top: 0.7rem;
+    }
+
+    .pannel button {
+        margin: 2rem;
+        padding: 0.3rem 2rem;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    .left{
+        overflow-x: hidden;
+        width: 100%;
+        margin-left: 0.1rem;
+    }
+    
+    .about{
+        flex-direction: column;
+        height: 9rem;
+    }
+    .about h2{
+        margin-top: 1rem;
+        margin-left: 12rem;
+    }
+    .about p{
+        margin-left: 12rem;
+    }
+    .about-right input{
+        margin-left: 12rem;
+        margin-top: 1.5rem;
+        padding: 0.6rem;
+        width: 14rem;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 1px solid transparent;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+    #list a {
+        margin: 1rem;
+    }
+
+    #list-img {
+        font-size: 1.7rem;
+    }
+
+    .navbar img {
+        margin-left: 1.7rem;
+    }
+    .banner1 {
+        margin-left: 0.5rem;
+    }
+
+    .banner2 {
+        margin-left: 0.5rem;
+    }
+
+    .banner3 {
+        margin: 0rem 0.5rem;
+    }
+
+    .heading1 {
+        font-size: 3.7rem;
+        margin-left: 20%;
+    }
+
+    .heading2 {
+        margin-left: 30%;
+    }
+
+    .card1 {
+        margin-left: 1rem;
+    }
+
+    .pannel {
+        margin-left: 2rem;
+        width: 90%;
+    }
+
+    .pannel h1 {
+        font-size: 1.2rem;
+    }
+
+    .pannel-img1 img {
+        height: 12rem;
+    }
+
+    .pannel-img2 img {
+        height: 12rem;
+        margin-top: 0.5rem;
+    }
+
+    .pannel button {
+        margin-top: 2rem;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .container img{
+        height: 20rem;
+        width: 20rem;
+    }
+    .about{
+        height: 9rem;
+    }
+    .about h2{
+        margin-top: 3rem;
+        margin-left: 1.5rem;
+    }
+    .about p{
+        margin-left: 1.5rem;
+    }
+    .about-right input{
+        margin-left: 2.5rem;
+        margin-top: 3rem;
+        padding: 0.6rem;
+        width: 12rem;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 1px solid transparent;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1100px) {
+
+    .card1 {
+        margin-left: 4rem;
+    }
+
+    .pannel {
+        margin: 4rem 0rem 4rem 4rem;
+        width: 90%;
+    }
+
+    .heading1{
+        margin-left: 20%;
+    }
+
+    .heading2{
+        margin-left: 35%;
+    }
+
+    .pannel h1 {
+        font-size: 1.2rem;
+    }
+
+    .pannel-img1 img {
+        height: 12rem;
+    }
+
+    .pannel-img2 img {
+        height: 12rem;
+        margin-top: 0.5rem;
+    }
+
+    .pannel button {
+        margin-top: 2rem;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .left h1 {
+        font-size: 1.5rem;
+        margin-left: 3rem;
+        width: 38%;
+    }
+
+    .left h5 {
+        font-size: 0.8rem;
+        width: 25%;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container img{
+        height: 20rem;
+        width: 20rem;
+    }
+    .about{
+        height: 9rem;
+    }
+    .about h2{
+        margin-top: 3rem;
+        margin-left: 1.5rem;
+    }
+    .about p{
+        margin-left: 1.5rem;
+    }
+    .about-right input{
+        margin-left: 9rem;
+        margin-top: 3rem;
+        padding: 0.6rem;
+        width: 12rem;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 1px solid transparent;
+    }
+}  
